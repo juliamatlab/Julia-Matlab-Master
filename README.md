@@ -1,4 +1,7 @@
-![Julia-Matlab-Logo](https://github.com/juliamatlab/Julia-Matlab-Master/Julia-Matlab-Logo.png)
+<p align="center">
+  <img src="https://github.com/juliamatlab/Julia-Matlab-Master/blob/master/logo/Julia-Matlab-Logo-small.png" alt="Julia-Matlab-Logo" height="400"/>
+</p>
+
 
 # Julia-Matlab-Master
 Master repository for JuliaMatlab organization which provides Matlab friendly API for functions and packages in Julia language.
@@ -39,10 +42,11 @@ Separate repositories are created for each toolbox. To provide fast and efficien
 ## Benchmark (Julia vs Matlab)
 Here in [Julia-Matlab-Benchmark](https://github.com/juliamatlab/Julia-Matlab-Benchmark) repository you can see the benchmarks for the functions that are implemented in this organization. A function that is implemented is tested both in Julia and Matlab to compare the speed.
 
-![K-means Run Time](https://raw.githubusercontent.com/aminya/MatlabJuliaMatrixOperationsBenchmark/master/Figures/Figure16.png
-)
+<p align="middle">
+  <img src="https://raw.githubusercontent.com/aminya/MatlabJuliaMatrixOperationsBenchmark/master/Figures/Figure16.png" alt="K-means Run Time" width="400"/>
+   <img src="https://raw.githubusercontent.com/aminya/MatlabJuliaMatrixOperationsBenchmark/master/Figures/Figure3.png" alt="Matrix Multiplication" width="400"/>
+</p>
 
 
-
-
+## Reference
 The idea of this repository was inspired by https://en.wikibooks.org/wiki/Julia_for_MATLAB_Users/Index and https://github.com/MatlabCompat/MatlabCompat.jl.
