@@ -10,7 +10,7 @@ Master repository for JuliaMatlab organization which provides Matlab friendly AP
 The purpose of this organization is to make Julia more like a home for Matlab users.
 
 ## Background
-**Matlab** is a commercial language that has many users especially in Academia. **Julia** is an open-source scientific programming language that was designed from the beginning for high performance, i.e. it is a high-level fast language! Because of these reasons Julia is considered an excellent replacement for Matlab.
+**Matlab** is a commercial language that has many users especially in Academia. **Julia** is an open-source scientific programming language that was designed from the beginning for high performance, i.e. it is a high-level fast language!
 
 ## Structure
 For each Matlab toolbox a Julia native package is created, that provides several Julia functions that mimic Matlab's functionality in that toolbox.
@@ -70,4 +70,9 @@ Here in [Julia-Matlab-Benchmark](https://github.com/juliamatlab/Julia-Matlab-Ben
 
 
 ## Reference
-The idea of this repository was inspired by https://en.wikibooks.org/wiki/Julia_for_MATLAB_Users/Index and https://github.com/MatlabCompat/MatlabCompat.jl.
+The idea of this repository was inspired by [Julia_for_MATLAB_Users](https://en.wikibooks.org/wiki/Julia_for_MATLAB_Users/Index) and [MatlabCompat](https://github.com/MatlabCompat/MatlabCompat.jl), and [GNU Octave](https://www.gnu.org/software/octave/)
+
+
+## Disclaimer
+
+All the codes that are presented in this organization are written in the open source Julia language from scratch and by no means or intentions present a complete overlap with product of Mathworks Inc., nor any intentions to violate any of materials copyrighted by Mathworks Inc. or any other respective third party copyright owner. The codes are written using native Julia packages and published state-of-the-art algorithms, being property of the public domain. Any overlap with property of respective copyright owners is pure accidental.
