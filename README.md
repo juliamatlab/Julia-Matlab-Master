@@ -24,12 +24,33 @@ For each Matlab toolbox a Julia native package is created, that provides several
 ### List of Functions in Each package
 The list of the functions that are implemented can be found here:
 
-| package (toolbox)  |            |         |        |        |         |     |     |           |       |
-|-------------|------------|---------|--------|--------|---------|-----|-----|-----------|-------|
-| MatMath  |  |    |  |  |  |  |  |  |  |
-| MatString          |        |         |        |        |         |     |     |           |       |
-| MatImage   |       |      |        |        |         |     |     |           |       |
-| MatVision |        |  |  |        |         |     |     |           |       |
+<table>
+    <tr>
+        <td></td>
+        <td>package (toolbox)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>MatMath</td>
+        <td>new function</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>MatString</td>
+        <td>new function</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>MatImage</td>
+        <td>new function</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>MatVision</td>
+        <td>new function</td>
+    </tr>
+</table>
 
 
 The full list of the functions that will be implemented in the future can be found here: https://www.mathworks.com/help/matlab/referencelist.html;jsessionid=e221a09e47ed26d2b333ea600f68?type=function
