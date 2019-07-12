@@ -55,8 +55,9 @@ The list of the functions that are implemented can be found here:
 
 The full list of the functions that will be implemented in the future can be found here: https://www.mathworks.com/help/matlab/referencelist.html;jsessionid=e221a09e47ed26d2b333ea600f68?type=function
 
-## Developing
-Feel free to contribute to this multi-field project. We need developers from different backgrounds to provide Matlab friendly API and wrappers.
+## Developing / Coding Standard
+For coding standard please refer to [Coding Standard](https://github.com/juliamatlab/Julia-Matlab-Master/blob/master/Coding-Standard.md).
+Feel free to contribute to this multi-field project. We need developers from different backgrounds to provide Matlab friendly API and wrappers. 
 
 Separate repositories are created for each toolbox. To provide fast and efficient wrappers please follow: https://docs.julialang.org/en/v1/manual/performance-tips/#Write-%22type-stable%22-functions-1
 
