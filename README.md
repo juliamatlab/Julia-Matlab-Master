@@ -3,6 +3,8 @@
 </p>
 
 
+ [![Dev Doc](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliamatlab.github.io/MatLang/dev)
+
 # Julia-Matlab-Master
 Master repository for JuliaMatlab organization which provides Matlab friendly API for functions and packages in Julia language.
 
@@ -16,7 +18,8 @@ The purpose of this organization is to make Julia more like a home for Matlab us
 For each Matlab toolbox a Julia native package is created, that provides several Julia functions that mimic Matlab's functionality in that toolbox.
 
 ### List of packages (toolboxes)
-* **[MatLang](https://github.com/juliamatlab/MatLang)**: API for Matlab's language core functions
+* **[MatLang](https://github.com/juliamatlab/MatLang)**: API for Matlab's language core functions  [![Dev Doc](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliamatlab.github.io/MatLang/dev)
+
 * **[MatImageProcesssing](url)**: API for image processing toolbox functions  
 * **[MatVision](url)**: API for computer vision toolbox functions   
 
@@ -33,12 +36,7 @@ The list of the functions that are implemented can be found here:
         <td>1</td>
         <td>MatLang</td>
         <td>clcM</td>
-        <td>zerosM</td>
-        <td>onesM</td>
-        <td>randM</td>
-        <td>eyeM</td>
-        <td>diagM</td>
-        <td>blkdiagM</td>
+        <td>zerosM, onesM, randM, eyeM, diagM, catM, horzcatM, vertcatM, repelemM(limited), repmatM, linspaceM, logspaceM, lengthM, sizeM, numelM, transposeM, squeezeM</td>
     </tr>
 </table>
 
