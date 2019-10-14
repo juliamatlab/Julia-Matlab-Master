@@ -11,17 +11,11 @@ Master repository for JuliaMatlab organization which provides Matlab friendly AP
 ## Goal
 The purpose of this organization is to make Julia more like a home for Matlab users.
 
-## Background
-**Matlab** is a commercial language that has many users especially in Academia. **Julia** is an open-source scientific programming language that was designed from the beginning for high performance, i.e. it is a high-level fast language!
-
 ## Structure
 For each Matlab toolbox a Julia native package is created, that provides several Julia functions that mimic Matlab's functionality in that toolbox.
 
 ### List of packages (toolboxes)
 * **[MatLang](https://github.com/juliamatlab/MatLang)**: API for Matlab's language core functions  [![Dev Doc](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliamatlab.github.io/MatLang/dev)
-
-* **[MatImageProcesssing](url)**: API for image processing toolbox functions  
-* **[MatVision](url)**: API for computer vision toolbox functions   
 
 ### List of Functions in Each package
 The list of the functions that are implemented can be found here:
@@ -36,7 +30,8 @@ The list of the functions that are implemented can be found here:
         <td>1</td>
         <td>MatLang</td>
         <td>clcM</td>
-        <td>zerosM, onesM, randM, eyeM, diagM, catM, horzcatM, vertcatM, repelemM(limited), repmatM, linspaceM, logspaceM, lengthM, sizeM, numelM, transposeM, squeezeM</td>
+        <td>zerosM, onesM, randM, eyeM, trueM, falseM, diagM, catM, horzcatM, vertcatM, repelemM(limited), repmatM, linspaceM, logspaceM, meshgridM, ndgridM, freqspaceM, lengthM, sizeM, numelM, isscalarM, isvectorM, sortM, flipM, fliplrM, flipudM, flipdimM, rot90M, transposeM, squeezeM</td>
+        <td>doubleM, singleM, int8M, int16M, int32M, int64M, uint8M, uint16M, uint32M, uint64M</td>
     </tr>
 </table>
 
@@ -54,9 +49,13 @@ Separate repositories are created for each toolbox. To provide fast and efficien
 Here in [Julia-Matlab-Benchmark](https://github.com/juliamatlab/Julia-Matlab-Benchmark) repository you can see the benchmarks for the functions that are implemented in this organization. A function that is implemented is tested both in Julia and Matlab to compare the speed.
 
 <p align="middle">
-  <img src="https://raw.githubusercontent.com/aminya/MatlabJuliaMatrixOperationsBenchmark/master/Figures/Figure16.png" alt="K-means Run Time" width="400"/>
-   <img src="https://raw.githubusercontent.com/aminya/MatlabJuliaMatrixOperationsBenchmark/master/Figures/Figure3.png" alt="Matrix Multiplication" width="400"/>
+  <img src="https://raw.githubusercontent.com/juliamatlab/Julia-Matlab-Benchmark/master/Figures/Matlab_Julia-1-BLAS-Thread_Julia-MKL/Figure16.png" alt="K-means Run Time" width="400"/>
+  <img src="https://raw.githubusercontent.com/juliamatlab/Julia-Matlab-Benchmark/master/Figures/Matlab_Julia-1-BLAS-Thread_Julia-MKL/Figure4.png" alt="Matrix Quadratic Form" width="400"/>
 </p>
+
+
+## Background
+**Matlab** is a commercial language that has many users especially in Academia. **Julia** is an open-source scientific programming language that was designed from the beginning for high performance, i.e. it is a high-level fast language!
 
 
 ## Reference
