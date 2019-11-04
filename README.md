@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/juliamatlab/Julia-Matlab-Master/blob/master/logo/Julia-Matlab-Logo-small.png" alt="Julia-Matlab-Logo" height="400"/>
+  <img src="https://github.com/juliamatlab/Julia-Matlab-Master/blob/master/logo/Julia-Matlab-Logo.png" alt="Julia-Matlab-Logo" height="400"/>
 </p>
 
 
